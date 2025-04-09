@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Button Example</title>
+</head>
+<body>
+  <h2>Click the Button Below</h2>
+  <button onclick="alert('Hello, Affan!')">Click Me</button>
+</body>
+</html>
