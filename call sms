@@ -1,0 +1,39 @@
+<div class="button-container">
+  <a href="tel:+917357884082" class="custom-button">📞 Call Us</a>
+  <a href="sms:+917357884082" class="custom-button">💬 Leave an SMS</a>
+  <a href="mailto:reply2affankhan@gmail.com?subject=Hello!" class="custom-button">📧 Drop a Mail</a>
+  <a href="https://wa.me/917357884082" class="custom-button">💚 WhatsApp</a>
+  <a href="/sample.pdf" download class="custom-button">📄 Download Resume</a>
+</div>
+
+
+
+
+
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
